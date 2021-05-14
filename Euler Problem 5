@@ -1,0 +1,18 @@
+process_continue = True
+y = 2
+num = input("Enter your Number ")
+y_notdivis_x = True
+
+
+while y_notdivis_x == True:
+    for x in range(2, ((int(num)) + 1)):
+        if y % x != 0:
+            y += 1
+            break
+
+        elif y % x == 0 and x == int(num):
+            y_notdivis_x = False
+        elif y % x == 0 and x < int(num):
+            y += 1
+            print(y)
+            break

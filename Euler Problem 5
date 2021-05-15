@@ -1,3 +1,4 @@
+
 process_continue = True
 y = 2
 num = input("Enter your Number ")
@@ -12,7 +13,7 @@ while y_notdivis_x == True:
 
         elif y % x == 0 and x == int(num):
             y_notdivis_x = False
-        elif y % x == 0 and x < int(num):
-            y += 1
             print(y)
-            break
+
+        elif y % x == 0 and x < int(num):
+            pass

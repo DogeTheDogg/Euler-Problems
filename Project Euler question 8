@@ -25,7 +25,7 @@ while process_continue == True:
         list_temp.clear()
 
 
-    if z == 9999:
+    if y+x == 9999:
         process_continue = False
 
 print("This is the largest product")
